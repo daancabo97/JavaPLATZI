@@ -37,17 +37,21 @@ public class Funciones {
     }
 
     public static double circleArea(double r) {
-        return 4 * Math.PI * Math.pow(r, 2);
+        double result = 4 * Math.PI * Math.pow(r, 2);
+        System.out.println("circleArea :" + result);
+        return result;
     }
 
     public static double AreaEsfera(double r) {
-        return 4 * Math.PI * Math.pow(r, 2);
-
+        double result = 4 * Math.PI * Math.pow(r, 2);
+        System.out.println("AreaEsfera :" + result);
+        return result;
     }
 
     public static double VolumenEsfera(double r) {
-        return (4 / 3) * Math.PI * Math.pow(r, 3);
-
+        double result = (4 / 3) * Math.PI * Math.pow(r, 3);
+        System.out.println("VolumenEsfera :" + result);
+        return result;
     }
 
    public static double convertirMoneda(String moneda, double cantidad) {
